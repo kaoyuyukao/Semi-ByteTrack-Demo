@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Vimeo Video Page</title>
+    <title>Semi-ByteTrack</title>
     <style>
         body {
             text-align: center;
@@ -14,13 +14,13 @@
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 20px auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             color: #333;
         }
         iframe {
@@ -28,31 +28,45 @@
             height: 450px;
             border: none;
         }
+        .info {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+        .info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>[Semi-ByteTrack Demo]-SportsMOT Football</h1>
-        <iframe src="https://player.vimeo.com/video/1055451955" 
-                allow="autoplay; fullscreen; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
+        <h1>Welcome to the Semi-ByteTrack Demo</h1>
+        <p>
+            This page showcases the <strong>Semi-ByteTrack</strong> tracking algorithm in various sports scenarios, utilizing data from the SportsMOT dataset.
+        </p>
+        <p>
+            <strong>Data Source:</strong> <a href="https://github.com/MCG-NJU/SportsMOT" target="_blank">SportsMOT</a><br>
+            <strong>Tracker Developer:</strong> <a href="https://sites.google.com/site/brucelinco2/aiot-lab" target="_blank">National Taiwan Normal University AIoT Lab</a>
+        </p>
     </div>
     
     <div class="container">
-        <h1>[Semi-ByteTrack Demo]-SportsMOT Basketball</h1>
-        <iframe src="https://player.vimeo.com/video/1055451473" 
-                allow="autoplay; fullscreen; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
+        <h2>[Semi-ByteTrack Demo] - SportsMOT Football</h2>
+        <iframe src="https://player.vimeo.com/video/1055451955" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
     
     <div class="container">
-        <h1>[Semi-ByteTrack Demo]-SportsMOT Volleyball</h1>
-        <iframe src="https://player.vimeo.com/video/1055452255" 
-                allow="autoplay; fullscreen; picture-in-picture" 
-                allowfullscreen>
-        </iframe>
+        <h2>[Semi-ByteTrack Demo] - SportsMOT Basketball</h2>
+        <iframe src="https://player.vimeo.com/video/1055451473" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div class="container">
+        <h2>[Semi-ByteTrack Demo] - SportsMOT Volleyball</h2>
+        <iframe src="https://player.vimeo.com/video/1055452255" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
 </body>
 </html>
