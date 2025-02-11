@@ -1,73 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semi-ByteTrack</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: #FFFDD0;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        iframe {
-            width: 100%;
-            height: 450px;
-            border: none;
-        }
-        .info {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #555;
-        }
-        .info a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        .info a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semi-ByteTrack</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa; /* professional light gray background */
+      margin: 0;
+      padding: 20px;
+      color: #212529; /* dark text for readability */
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #343a40; /* darker gray for headings */
+    }
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+    .info {
+      margin-top: 20px;
+      font-size: 14px;
+      text-align: left;
+    }
+    .info a {
+      color: #007BFF; /* professional blue for links */
+      text-decoration: none;
+    }
+    .info a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the Semi-ByteTrack Demo</h1>
-        <p>
-            This page showcases the <strong>Semi-ByteTrack</strong> tracking algorithm in various sports scenarios, utilizing data from the SportsMOT dataset.
-        </p>
-        <p>
-            <strong>Data Source:</strong> <a href="https://github.com/MCG-NJU/SportsMOT" target="_blank">SportsMOT</a><br>
-            <strong>Yu-Yung Kao, Po-Yung Chou, Hsuan-Yi Wang, Cheng-Hung Lin</a><br>
-            </strong> <a href="https://sites.google.com/site/brucelinco2/aiot-lab" target="_blank">National Taiwan Normal University AIoT Lab</a>
-        </p>
+  <div class="container">
+    <h1>Welcome to the Semi-ByteTrack Demo</h1>
+    <p>
+      This page showcases the <strong>Semi-ByteTrack</strong> tracking algorithm in various sports scenarios, utilizing data from the SportsMOT dataset.
+    </p>
+    <div class="info">
+      <p>
+        <strong>Data Source:</strong> <a href="https://github.com/MCG-NJU/SportsMOT" target="_blank">SportsMOT</a>
+      </p>
+      <p>
+        <strong>Authors:</strong> Yu-Yung Kao, Po-Yung Chou, Hsuan-Yi Wang, Cheng-Hung Lin
+      </p>
+      <p>
+        <strong>Lab:</strong> <a href="https://sites.google.com/site/brucelinco2/aiot-lab" target="_blank">National Taiwan Normal University AIoT Lab</a>
+      </p>
     </div>
-    
-    <div class="container">
-        <h2>[Semi-ByteTrack] - SportsMOT Football</h2>
-        <iframe src="https://player.vimeo.com/video/1055451955" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    
-    <div class="container">
-        <h2>[Semi-ByteTrack] - SportsMOT Basketball</h2>
-        <iframe src="https://player.vimeo.com/video/1055451473" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    
-    <div class="container">
-        <h2>[Semi-ByteTrack] - SportsMOT Volleyball</h2>
-        <iframe src="https://player.vimeo.com/video/1055452255" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    </div>
+  </div>
+  
+  <div class="container">
+    <h2>[Semi-ByteTrack] - SportsMOT Football</h2>
+    <iframe src="https://player.vimeo.com/video/1055451955" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  <div class="container">
+    <h2>[Semi-ByteTrack] - SportsMOT Basketball</h2>
+    <iframe src="https://player.vimeo.com/video/1055451473" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  <div class="container">
+    <h2>[Semi-ByteTrack] - SportsMOT Volleyball</h2>
+    <iframe src="https://player.vimeo.com/video/1055452255" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </body>
 </html>
